@@ -1,0 +1,240 @@
+.body{
+    font-family: 'Tiro Tamil', serif !important;
+}
+.navbar{
+    background: #000 !important;
+}
+.carousel{
+    padding: 0 !important;
+}
+.title_ejemplarExotic{
+    color: #FDCF53;
+}
+.title_slider_banner{
+    color: #FDCF53;
+    position: absolute !important;
+    top: 30%;
+}
+.title_slider_banner2{
+    color: #fff;
+    position: absolute !important;
+    top: 50%;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: #FDCF53 !important;
+    border-radius: 5px !important;
+}
+.a_nav:hover{
+    color: #FDCF53 !important; 
+}
+.active{
+    color: #FDCF53 !important; 
+}
+.dropdown-menu .active_sub{
+    color: #FDCF53 !important; 
+}
+.dropdown-menu{
+    background-color: #000 !important;
+}
+.a_nav_sub{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+.a_nav_sub:hover{
+    background-color: #000 !important;
+    color: #FDCF53 !important; 
+}
+.text_img{
+    position: absolute;
+    top: 50%;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.text_img:hover{
+    font-size: 2.5rem;
+    color: #FDCF53 !important; 
+}
+#criadero{
+    background-color: #FDCF53 !important;
+}
+.left_criadero{
+    text-align: justify !important;
+}
+#contactos{
+    display: grid;
+    height: 60vh;/*es decir el 100% de lo que tiene la pantalla*/
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+	,url(../img/banner_home_contactos.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; /*para que le de el efecto de imagen al subir BIEN CHEVERE*/
+	background-position: center;
+}
+#footer{
+    background-color: #000 !important;
+}
+.footer_icons{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #212225;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.footer_icons:hover{
+    color: #FDCF53 !important; 
+}
+.p_nosotros{
+    text-align: justify !important;
+}
+.text_img_nosotros{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-right: 9% !important;
+}
+#banner_exotic{
+    display: grid;
+    height: 60vh;/*es decir el 100% de lo que tiene la pantalla*/
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+	,url(../img/banner_exotic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; /*para que le de el efecto de imagen al subir BIEN CHEVERE*/
+	background-position: center;
+}
+#banner_terrier{
+    display: grid;
+    height: 60vh;/*es decir el 100% de lo que tiene la pantalla*/
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+	,url(../img/banner_terrier.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; /*para que le de el efecto de imagen al subir BIEN CHEVERE*/
+	background-position: center;
+}
+.btn_wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom:30px;
+    right: 30px;
+    background: #0df053;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn_wsp:hover{
+    color: #FDCF53;
+}
+.footer_icons:hover{
+    color:#FDCF53 !important;
+}
+.link-dark{
+    color:#fff !important;
+}
+@media (max-width:900px){
+    .text_img_nosotros{
+        font-size: 30px !important;
+        padding-right: 5% !important;
+    }
+}
+
+@media (max-width:768px){
+    .title_slider_banner{
+        font-size: 25px !important;
+    }
+    .title_slider_banner2{
+        font-size: 20px !important;
+    }
+    .title_ejemplarExotic{
+        font-size: 25px !important;
+    }
+    .sub_title_ejemplarExotic{
+        font-size: 20px !important;
+    }
+    .text_ejemplarExotic p{
+        font-size: 25px !important;
+    }
+    .text_img_nosotros{
+        font-size: 30px !important;
+        padding-right: 5% !important;
+    }
+}
+@media (max-width:576px){
+    .title_slider_banner{
+        font-size: 20px !important;
+    }
+    .title_slider_banner2{
+        font-size: 15px !important;
+    }
+    .title_ejemplarExotic{
+        font-size: 20px !important;
+    }
+    .sub_title_ejemplarExotic{
+        font-size: 18px !important;
+    }
+    .text_img_nosotros{
+        font-size: 20px !important;
+        padding-right: 4% !important;
+    }
+}
+@media (max-width:400px){
+    .title_slider_banner{
+        font-size: 15px !important;
+    }
+    .title_slider_banner2{
+        font-size: 10px !important;
+    }
+    .title_ejemplarExotic{
+        font-size: 23px !important;
+    }
+    .sub_title_ejemplarExotic{
+        font-size: 15px !important;
+    }
+    .text_ejemplarExotic p{
+        font-size: 20px !important;
+    }
+    .img_logo{
+        width: 90px !important;
+        height: 50px !important;
+    }
+    .text_img_nosotros{
+        font-size: 15px !important;
+        padding-right: 4% !important;
+    }
+    .text_footer{
+        font-size: 12px !important;
+    }
+}
+@media (max-width:300px){
+    .title_slider_banner{
+        font-size: 10px !important;
+    }
+    .title_slider_banner2{
+        font-size: 8px !important;
+    }
+    .title_ejemplarExotic{
+        font-size: 14px !important;
+    }
+    .sub_title_ejemplarExotic{
+        font-size: 13px !important;
+    }
+    .text_img_nosotros{
+        font-size: 10px !important;
+        padding-right: 4% !important;
+    }
+}
